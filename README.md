@@ -1,11 +1,11 @@
-# fund_data_science_repo
-
 <h1>RBQL.csv</h1>
 <p>Arquivo csv apresenta os nomes das cidades e suas respectivas informa&ccedil;&otilde;es de latitude e longitude dos laborat&oacute;rios cred&ecirc;ncias da Rede&nbsp; Brasileira de Qualidade de Leite.</p>
 <h1>embrapa.csv</h1>
 <p>Arquivo csv que apresenta os nomes das cidades e suas respectivas informa&ccedil;&otilde;es de latitude e longitude de unidades da Embrapa espalhadas pelo Brasil.</p>
 <h1>Dataset_final.csv</h1>
-<p>O artigo csv possui 24 linhas (um para cada ano de 2000 a 2023) e 25 colunas (vari&aacute;veis). &Eacute; um dataset temporal que vai de 2000 at&eacute; 2023 coluna (year), de maneira geral pode ser dividido em 4 categorias diferentes, cada categoria possuindo dados para cada uma das regi&otilde;es do Brasil: Produ&ccedil;&atilde;o de leite regional, coluna (m&eacute;dia da produ&ccedil;&atilde;o de leite), Dados clim&aacute;ticos (temperatura e precipta&ccedil;&atilde;o) medidos em graus celsius e milimetros respectivamente, colunas (Temperatura m&eacute;dia e Precipita&ccedil;&atilde;o m&eacute;dia) Dados de pre&ccedil;o do leite, que envolve dados da m&eacute;dia de pre&ccedil;o para produ&ccedil;&atilde;o do leite, coluna (m&eacute;dia do pre&ccedil;o do leite para o produtor) e a m&eacute;dia de pre&ccedil;o do leite comercializado entre produtores, coluna (Pre&ccedil;o l&iacute;quido m&eacute;dio do leite (entre produtores)). Por fim existe dados da varia&ccedil;&atilde;o da infla&ccedil;&atilde;o, coluna (ipca_variacao).</p>
+<p>O arquivo csv possui 24 linhas (um para cada ano de 2000 a 2023) e 25 colunas (vari&aacute;veis). &Eacute; um dataset temporal que vai de 2000 at&eacute; 2023 coluna (year), de maneira geral pode ser dividido em 4 categorias diferentes, cada categoria possuindo dados para cada uma das regi&otilde;es do Brasil: Produ&ccedil;&atilde;o de leite regional, coluna (m&eacute;dia da produ&ccedil;&atilde;o de leite), Dados clim&aacute;ticos (temperatura e precipta&ccedil;&atilde;o) medidos em graus celsius e milimetros respectivamente, colunas (Temperatura m&eacute;dia e Precipita&ccedil;&atilde;o m&eacute;dia) Dados de pre&ccedil;o do leite, que envolve dados da m&eacute;dia de pre&ccedil;o para produ&ccedil;&atilde;o do leite, coluna (m&eacute;dia do pre&ccedil;o do leite para o produtor) e a m&eacute;dia de pre&ccedil;o do leite comercializado entre produtores, coluna (Pre&ccedil;o l&iacute;quido m&eacute;dio do leite (entre produtores)). Por fim existe dados da varia&ccedil;&atilde;o da infla&ccedil;&atilde;o, coluna (ipca_variacao).</p>
+<h1>quality_data.csv</h1>
+<p>O arquivo CSV possui ao total 4 Par&acirc;metros CPP, CSS, EST e ESD, agrupados por estado/regi&atilde;o e por ano de 2013 at&eacute; 2023, os valores apresentados s&atilde;o os valores m&aacute;ximos e m&iacute;nimos daquela ano respectivo para cada par&acirc;metro.</p>
 <h1>script_de_processamento_leite.ipynb</h1>
 <p>O arquivo apresenta os c&oacute;digos desenvolvidos utilizando python notebooks, nele s&atilde;o aplicados diferentes bibliotecas e etapas de processamento: as principais ferramentas utilizadas s&atilde;o:&nbsp;</p>
 <ul>
@@ -77,12 +77,11 @@
 <p><strong>Visualiza&ccedil;&atilde;o:</strong> Gera mapas apontando localiza&ccedil;&otilde;es, correlacionando as sedes da Embrapa ou centros de qualidade de leite com essas coordenadas.</p>
 </li>
 </ul>
-<p>&nbsp;</p>
 <h1>milk_production._map.html</h1>
-<p>Arquivo HTML, que permite acessar o mapa construido e que apresenta os dados do dataset de maneira din&acirc;mica, agrupados por regi&atilde;o, al&eacute;m disso apresenta as informa&ccedil;&otilde;es relacionadas a posi&ccedil;&atilde;o geogr&aacute;fica de centros de pesquisa e analise do leite (embrapa e RBQL).<br><br><br></p>
+<p>Arquivo HTML, que permite acessar o mapa construido e que apresenta os dados do dataset de maneira din&acirc;mica, agrupados por regi&atilde;o, al&eacute;m disso apresenta as informa&ccedil;&otilde;es relacionadas a posi&ccedil;&atilde;o geogr&aacute;fica de centros de pesquisa e analise do leite (embrapa e RBQL).</p>
 <h1>Prov_xxx.png</h1>
-<p>Todos arquivos que come&ccedil;am com <strong>prov_&nbsp;</strong>apresentam em formato de imagem a proveni&ecirc;ncia de cada dado obtido, a imagem apresenta informa&ccedil;&otilde;es sobre o processo de obten&ccedil;&atilde;o e transforma&ccedil;&atilde;o dos dados, desde do local onde foi obtido at&eacute; ser transformado no formato dataframe para futuramente ser unificado no dataset final.<br><br></p>
+<p>Todos arquivos que come&ccedil;am com <strong>prov_&nbsp;</strong>apresentam em formato de imagem a proveni&ecirc;ncia de cada dado obtido, a imagem apresenta informa&ccedil;&otilde;es sobre o processo de obten&ccedil;&atilde;o e transforma&ccedil;&atilde;o dos dados, desde do local onde foi obtido at&eacute; ser transformado no formato dataframe para futuramente ser unificado no dataset final. Especificamente o quality_prov.png &eacute; o grafo de proveni&ecirc;ncia do dataset de qualidade.&nbsp;</p>
 <h1>requirements_script_leite.txt</h1>
-<p>O arquivo requirements_script_leite.txt apresenta informa&ccedil;&otilde;es das bibliotecas utilizadas no ambiente no qual o script de processamento dos dados e constru&ccedil;&atilde;o do dataset foi executado, cabe citar que o ambiente utilizado foi o colab, assim os principais pacotes que s&atilde;o essenciais para executar o arquivo est&atilde;o apresentado no artigo produzido.<br><br></p>
+<p>O arquivo requirements_script_leite.txt apresenta informa&ccedil;&otilde;es das bibliotecas utilizadas no ambiente no qual o script de processamento dos dados e constru&ccedil;&atilde;o do dataset foi executado, cabo citar que o ambiente citado foi o colab, assim os principais pacotes que s&atilde;o essenciais para executar o arquivo est&atilde;o apresentado no artigo produzido.</p>
 <h1>requirements_map_script.txt</h1>
-<p>O arquivo requirements_script_leite.txt apresenta informa&ccedil;&otilde;es das bibliotecas utilizadas no ambiente no qual o script para o desenvolvimento da visualiza&ccedil;&atilde;o dos dados foi executado.</p>
+<p>O arquivo requirements_script_leite.txt apresenta informa&ccedil;&otilde;es das bibliotecas utilizadas no ambiente no qual o script para o desenvolvimento da visualiza&ccedil;&atilde;o dos dados foi executado</p>
