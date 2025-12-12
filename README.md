@@ -1,7 +1,8 @@
 <h1>datascience_paper_sbc (1).pdf</h1>
+<a href="https://github.com/Maxcravo/fund_data_science_repo/blob/main/datascience_paper_sbc%20(1).pdf">datascience_paper_sbc</a>
 <p>PDF file that contains the article write </p>
-
 <h1>Datascience_Apresentação_final.pdf</h1>
+<a href="https://github.com/Maxcravo/fund_data_science_repo/blob/main/Datascience_Apresenta%C3%A7%C3%A3o_final.pdf">Datascience_Apresentação_final</a>
 <p>PDF file that contains the presentation made for the discipline</p>
 
 <h1>RBQL.csv</h1>
