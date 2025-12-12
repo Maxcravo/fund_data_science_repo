@@ -1,3 +1,9 @@
+<h1>datascience_paper_sbc (1).pdf</h1>
+<p>PDF file that contains the article write </p>
+
+<h1>Datascience_Apresentação_final.pdf</h1>
+<p>PDF file that contains the presentation made for the discipline</p>
+
 <h1>RBQL.csv</h1>
 <p>CSV file presenting the names of cities and their respective latitude and longitude information for laboratories accredited by the Brazilian Milk Quality Network.</p>
 <h1>embrapa.csv</h1>
